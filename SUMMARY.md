@@ -13,20 +13,9 @@
 * [Validators Overview](guides/validators/overview.md)
 * [Running a Local Node](guides/validators/local.md)
 * [Joining the Mainnet](guides/create-a-testnet-validator.md)
-  * [Systemd Configuration](guides/systemd.md)
-
-## Provider Guides
-* [Running a Provider Node](providers/kube/README.md)
 
 ## Deployment Guides
 * [Deploy a Simple Web App](guides/deploy/web.md)
-
-## Akashian Challenge
-* [The Challenge](akashian/README.md)
-* [Phase 1](akashian/phase1.md)
-  * [Centauri 2 Validator Setup](akashian/centauri-2.md)
-* [Phase 2](akashian/phase2.md)
-  * [Network Configuration](akashian/phase2-network.md)
 
 ## Usage
 * [Install Akash Suite](guides/install.md)

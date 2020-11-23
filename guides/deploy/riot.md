@@ -1,8 +1,8 @@
 ## Before we begin
 
-In this step, you actually use the testnet to deploy a simple web app, paying with your testnet ATK tokens. Check out the [testnet guide](../testnet.md) to request tokens.
+In this step, you actually use the testnet to deploy a simple web app, paying with your testnet ATK tokens. 
 
-Make sure to have Akash client installed on your workstation, check [install guide](/guides/install.md) for instructions.
+Make sure to have Akash client installed on your workstation, check [install guide](../../guides/install.md) for instructions.
 
 ## 1. Check your balance
 
@@ -12,26 +12,34 @@ To list your keys, run:
 akash key list
 ```
 
-To check your balance, run:
+You will see a response similar to below:
+
+```
+- name: main
+  type: local
+  address: akash1hlhcs30vs9ppxmk3a6g5t80ff6uuzglw488829
+  pubkey: akashpub1addwnpepqw38exdzk3n96r9kcmq3ppdc4qrjfrj3e2yjvy9wh0x2tdg3mp8u5jfqhdh
+  mnemonic: ""
+  threshold: 0
+  pubkeys: []
+```
+
+To check your balance, run `akash query bank balances` command, for eg, to check the balance of `akash1hlhcs30vs9ppxmk3a6g5t80ff6uuzglw488829` run:
 
 ```shell
-akash query account  
+akash query bank balances akash1hlhcs30vs9ppxmk3a6g5t80ff6uuzglw488829
 ```
 
 For, example:
 
 ```
-(warn) please note, the token balance is denominated in uAKT (AKT * 10^-6)
-
-Account Query
-=============
-
-Public Key Address: 	d09cd624066cd36be651107daf6879ef49086491
-Balance:            	5,000,000,000                           
-Nonce:              	0                                       
+balances:
+- amount: "10000000"
+  denom: uakt
+pagination:
+  next_key: null
+  total: "0"
 ```
-
-List your keys using `akash key list` command and query your balance using `akash query account <public-key>` command.
 
 ## 2. Create the deployment configuration and modify it if desired.
 
