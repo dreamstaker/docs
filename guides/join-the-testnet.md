@@ -31,7 +31,7 @@ You need to [install `akash`](/guides/install.md) on your sever before you go fu
 Initialize the node and create the necessary config files. Repalce <chain_id.txt> below with the chain-id used in the [latest testnet](https://github.com/ovrclk/net/tree/master/latest) 
 
 ```bash
-akashd init <your_custom_moniker> --chain-id <chain_id.txt>
+akash init <your_custom_moniker> --chain-id <chain_id.txt>
 ```
 
 Monikers can contain only ASCII characters. Using Unicode characters will render your node unreachable.
