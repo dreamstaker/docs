@@ -72,6 +72,12 @@ akash validate-genesis
 
 Your node needs to know how to find peers. You'll need to add healthy seed nodes or persistent peers to `$HOME/.akash/config/config.toml`.  As with installing [`genesis.json`](#copy-the-genesis-file), consult the [net repo](https://github.com/ovrclk/net/) for how to obtain seeds to connect to.
 
+Configure the tendermint `config.toml`'s `seeds` field as such:
+
+```
+seeds = "tcp://62fb998f5b7a5f37566bb2171f1e7ed3b7e47cc8@143.23.45.87:26666,tcp://bba...
+```
+
 For more information on the how and why of seeds and peers, you can [read this](https://docs.tendermint.com/master/spec/p2p/peer.html) great documentation from the Tendermint maintainers.
 
 ## A Note on Gas and Fees
@@ -88,9 +94,9 @@ The `gasPrice` is the price of each unit of `gas`. Each validator sets a `min-ga
 
 The transaction `fees` are the product of `gas` and `gasPrice`. As a user, you have to input 2 out of 3. The higher the `gasPrice`/`fees`, the higher the chance that your transaction will get included in a block. 
 
-::: tip
+{% hint style="info" %}
 For Akash testnets, the recommended `gas-prices` is `0.025uakt`. 
-::: 
+{% endhint %}
 
 ## Pruning of State
 
@@ -114,7 +120,7 @@ akash start --pruning everything
 
 If you would like to run your node via `systemd` please see [this guide](/guides/node/systemd.md).
 
-You can use `akash` to check that everything is running smoothly:
+In another shell, you can use `akash` to check that everything is running smoothly:
 
 ```bash
 akash status
