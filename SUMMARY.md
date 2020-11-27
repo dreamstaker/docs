@@ -2,37 +2,33 @@
 
 * [Introduction](README.md)
 
-* [Features and Design](/design/README.md)
-  * [Features](/design/features.md)
-{% comment %}
-  * [Marketplace](/design/marketplace.md)
-  * [Provider Services](/design/provider-services.md)
-{% uncomment %}
+## Overview
+
+* [Introduction](overview/overview.md)
+* [Design](overview/design.md)
 
 ## Guides
 
-* [Choosing a Network](/guides/version.md)
-* [Install Akash](/guides/install.md)
-* [Wallet Setup](/guides/wallet/README.md)
-* [Funding your Account](/guides/wallet/funding.md)
-* [Deploy an Application](/guides/deploy/README.md)
-* [Run an Akash Node](/guides/node/README.md)
-  * [RPC Service](/guides/node/rpc.md)
-  * [API Service](/guides/node/api.md)
-  * [Run a Validator](/guides/node/validator.md)
-* [Become a Provider](/guides/provider/README.md)
+* [Install Akash Suite](guides/install.md)
+* [Get Started on Testnet](guides/testnet.md)
+* [Deploy a Riot Chat Client](guides/riot.md)
+* [Deploy Matrix Messaging Server](guides/matrix.md)
 
-## Documentation
+## Providers
 
-* [Stack Definition Language](/sdl/README.md)
-{% comment %}
-* [Command-Line](/cli/README.md) 
-{% endcomment %}
+* [Sell Your Spare Capacity using Kubernetes](providers/kube.md)
 
-## Testnet Challenges
+## Usage
 
-* [Overview](/testnet-challenges/README.md)
-  * [Network Support](/testnet-challenges/network-support.md)
-  * [Guided Deployments](/testnet-challenges/guided-deployments.md)
-  * [Open-Ended Deployments](/testnet-challenges/open-ended-deployments.md)
-  * [Community Content](/testnet-challenges/community-content.md)
+* [Stack Definition Language](usage/sdl.md)
+* [Akash Client](usage/cli/README.md)
+  * [Manage deployments](usage/cli/deployments.md)
+  * [Service logs](usage/cli/logs.md)
+  * [Manage keys](usage/cli/keys.md)
+  * [Monitor marketplace](usage/cli/marketplace.md)
+  * [Manage provider](usage/cli/provider.md)
+  * [Query network](usage/cli/query.md)
+  * [Send tokens to an account](usage/cli/send.md)
+  * [Get remote node status](usage/cli/status.md)
+  * [Print Akash version](usage/cli/version.md)
+

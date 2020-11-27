@@ -1,4 +1,4 @@
-# Check Version
+# Print Akash version
 
 **Usage**
 
@@ -17,14 +17,11 @@ date:     2018-08-01T06:45:59Z
 
 Use `akash version` to get the client version.
 
-```text
-Flags:
-  -h, --help   help for version
-      --long   Print long version information
+**Arguments**
 
-Global Flags:
-  -e, --encoding string   Binary encoding (hex|b64|btc) (default "hex")
-      --home string       directory for config and data (default "/home/ubuntu/.akash")
-  -o, --output string     Output format (text|json) (default "text")
-      --trace             print out full stack trace on errors
-```
+None
+
+**Flags**
+
+None
+

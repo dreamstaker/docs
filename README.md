@@ -1,37 +1,18 @@
 # Introduction
 
-Welcome to the documentation and user guides for [Akash], the decentralized cloud platform.
-Akash -- "open space, sky" in ancient Sanskrit -- is the world’s first distributed peer-to-peer open cloud computing
-marketplace; our aim is to materialize the vision of an open cloud that’s as boundless and free as the sky.
+## Getting Started
 
-For details about what [Akash] can do and what makes it tick, see [Features and Design](/design/README.md).
+* [Akash Intro](overview/overview.md): High-level overview of the Akash Network
+* [Deploy a Riot Chat Client](guides/riot.md): A tutorial to deploy on Akash. It showcases how to deploy a riot chat web client.
 
-## Guides
+## Earning Tokens
 
-* [Choosing a Network](/guides/version.md)
-* [Install Akash](/guides/install.md)
-* [Wallet Setup](/guides/wallet/README.md)
-* [Funding your Account](/guides/wallet/funding.md)
-* [Deploy an Application](/guides/deploy/README.md)
-* [Run an Akash Node](/guides/node/README.md)
-  * [RPC Service](/guides/node/rpc.md)
-  * [API Service](/guides/node/api.md)
-  * [Run a Validator](/guides/node/validator.md)
-* [Become a Provider](/guides/provider/README.md)
+* [Sell Your Spare Capacity](): A guide on how to offer your spare server capacity and earn AKT tokens.
+* [Run Validator on Testnet](): A tutorial on running a validator node to secure the Akash blockchain.
+* [Setup Kubernetes using DISCO](): A guide to using [DISCO](https://disco.akash.network) for deploying a secure, scalable, standardized software stack for decentralized networks in production.
 
-## Documentation
+## Usage
 
-* [Stack Definition Language](/sdl/README.md)
-{% comment %}
-* [Command-Line](/cli/README.md) 
-{% endcomment %}
+* [SDL](usage/sdl.md): Using SDL to orchestrate deployments on Akash
+* [Command Line](usage/cli/): Using the terminal tool to interface with Akash Network
 
-## Testnet Challenges
-
-* [Overview](/testnet-challenges/README.md)
-  * [Network Support](/testnet-challenges/network-support.md)
-  * [Guided Deployments](/testnet-challenges/guided-deployments.md)
-  * [Open-Ended Deployments](/testnet-challenges/open-ended-deployments.md)
-  * [Community Content](/testnet-challenges/community-content.md)
-
-[Akash]: https://github.com/ovrclk/akash

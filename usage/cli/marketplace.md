@@ -1,4 +1,4 @@
-# Monitor Marketplace
+# Monitor marketplace
 
 **Usage**
 
@@ -20,3 +20,4 @@ LEASE CREATED    4b24d14fe47d1b360fb6cebd883a5ba65f9876e62ba1ac27ace79001b42475e
 In the example above, `price` is given in uAKT \(AKT \* 10^-6\).
 
 Use `akash marketplace` for monitoring marketplace transactions.
+

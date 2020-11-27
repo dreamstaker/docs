@@ -1,4 +1,4 @@
-# Service Logs
+# Service logs
 
 **Usage**
 
@@ -33,3 +33,4 @@ Use `akash logs` to tail the application logs for each of your services.
 | -f | --follow | none | N | Whether update the console with new log lines or simply return the last n lines defined by `-l`. |
 | -l | --lines | uint | N | Number of lines from the end of the logs to show per service \(default 10\). |
 | -n | --node | string | N | Node host \(defaults to [https://api.akashtest.net:80](https://api.akashtest.net:80)\). |
+

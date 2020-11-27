@@ -1,4 +1,4 @@
-# Manage Providers
+# Manage provider
 
 **Usage**
 
@@ -93,3 +93,4 @@ None
 **Flags**
 
 None
+
